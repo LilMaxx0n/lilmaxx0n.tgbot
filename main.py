@@ -3,6 +3,7 @@ from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
 import config
 import requests
+bb = 30
 
 updater = Updater(
     token=config.token,
