@@ -1,2 +1,0 @@
-token = "1782932844:AAEWIV8Bv6s6iCMju-sIcGAXLEY_aHIyRME"
-a = 20

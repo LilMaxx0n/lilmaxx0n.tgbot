@@ -1,12 +1,13 @@
 from telegram.ext import Updater
 from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
-import config
 import requests
-bb = 30
+import os
+
+TOKEN = os.getenv('TOKEN')
 
 updater = Updater(
-    token=config.token,
+    token=TOKEN,
     use_context=True
 )  # постоянно обновляет/бот, который ждет когда ему что-то напишут, также есть publisher
 
